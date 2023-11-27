@@ -1,0 +1,117 @@
+body{
+  background: rgb(213,231,201);
+  background: linear-gradient(90deg, rgba(213,231,201,1) 0%, rgba(0,198,255,1) 19%, rgba(173,222,207,1) 56%, rgba(152,217,210,1) 100%);
+  text-align: center;
+}
+
+h1{
+  color: purple;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+input[type=text]{
+  height: 3rem;
+  width: 15rem;
+  font-size: 90%;
+  color: black;
+}
+
+#btn{
+  height: 3rem;
+  background-color: cadetblue;
+  margin: 1rem;
+}
+
+body{
+  padding: 2rem;
+}  
+
+.done{
+  text-decoration: line-through;
+}
+
+#task_update{
+  visibility: hidden;
+  
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+.not-completed{
+  text-decoration: none;
+}
+
+.To-do-List{
+  background-color: white;
+  width: 30rem;
+}
+
+@media only screen and (max-width: 520px) {
+  .To-do-List{
+    width: 95%;
+  }
+}
+.items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.items:nth-child(even){
+  background-color: #f7f7f7;
+}
+
+#input_field{
+  background-color: #f7f7f7;
+  width: 30rem;
+  display: flex ;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 520px) {
+  #input_field{
+    width: 95%;
+  }
+}
+
+#input{
+  width: 90%;
+  border: 0px;
+}
+
+.btn{
+  color: white;
+  background-color: #405cf5;
+  border: none;
+  margin: 2px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 1px;
+}
+
+#add_btn{
+  margin: 0px;
+  padding: 0px;
+}
+
+#delete{
+  background-color: #e62143;
+}
+
+#edit{
+  background-color: #fb8332;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+#input:focus{
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
